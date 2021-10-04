@@ -37,6 +37,9 @@ calcule uma expressão: D = (R + S) / 2 onde R = (A + B)² e S = (B + C)²
 		System.out.println();
 		
 		System.out.println("O Valor de S é: " + S);
-		}
+		
+		leia.close();
+		
+	}
 
 }

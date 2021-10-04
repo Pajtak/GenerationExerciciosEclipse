@@ -45,7 +45,10 @@ public class SistemaEquacoesLineares {
 		
 	
 		System.out.println("O valor de x é: " + x);
-		System.out.println("O valor de y é: " + y);		
+		System.out.println("O valor de y é: " + y);	
+		
+		leia.close();
+		
 		
 	
 	}

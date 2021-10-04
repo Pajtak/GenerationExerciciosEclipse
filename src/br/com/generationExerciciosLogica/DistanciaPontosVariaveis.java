@@ -28,6 +28,8 @@ public class DistanciaPontosVariaveis {
 		d = Math.sqrt(Math.pow((x2 - x1), 2.0) + Math.pow(y2-y1, 2));
 
 		System.out.println("O valor da distância é: " + d);
+		
+		leia.close();
 
 	}
 

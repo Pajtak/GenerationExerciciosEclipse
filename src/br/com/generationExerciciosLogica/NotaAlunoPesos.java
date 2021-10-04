@@ -26,6 +26,9 @@ public class NotaAlunoPesos {
 		media = ((notaA * 0.2) + (notaB * 0.3) + (notaC * 0.5));
 
 		 System.out.println("A média total do aluno foi de: " + media);
+		 
+		 leia.close();
+		 
 
 	}
 
