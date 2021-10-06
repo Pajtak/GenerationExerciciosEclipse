@@ -20,6 +20,7 @@ digitados.
 			soma +=n;
 		} while (n != 0);
 		System.out.println("A soma dos números digitados é: " + soma);
+		ler.close();
 	}
 
 }

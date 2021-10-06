@@ -8,13 +8,13 @@ obtemos resto = 5.
 
 	public static void main(String[] args) {
 		
-		int   cont;
+		int   cont = 0, valor;
 		
-		for (cont = 1000; cont <= 1999; cont++) {
-			
-			if (cont % 11 == 5) {
+		for (valor = 1000; valor <= 1999; valor++) {
+			cont++;
+			if (valor % 11 == 5) {
 				
-				System.out.println(cont);
+				System.out.println(cont + "º valor: " + valor);
 			}
 			
 		}
