@@ -4,7 +4,7 @@ import javax.swing.JOptionPane;
 
 public class exercicio2 {
 	/*Faça um programa que entre com três números e coloque em ordem crescente.
-	 * Autor: Bruno Pajtak
+	 *Autor: Bruno Pajtak
 	 * Data:04/10/2021*/
 
 	public static void main(String[] args) {
