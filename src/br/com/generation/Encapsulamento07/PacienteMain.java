@@ -11,7 +11,7 @@ objeto e apresente as informações deste objeto no console.
 		// TODO Auto-generated method stub
 
 		
-	PacienteAtributos paciente1 = new PacienteAtributos();
+	PacienteAtributos paciente1 = new PacienteAtributos();http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=495
 	
 	paciente1.setNome("John Smith");
 	paciente1.setIdade(34);
