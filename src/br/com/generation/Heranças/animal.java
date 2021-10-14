@@ -1,10 +1,13 @@
 package br.com.generation.Heranças;
 
-public class animal {
+public abstract class animal {
 	
 	
 	private String nome;
 	private int idade;
+	private String som;
+	
+
 	public String getNome() {
 		return nome;
 	}
@@ -17,5 +20,14 @@ public class animal {
 	public void setIdade(int idade) {
 		this.idade = idade;
 	}
-	
+
+	public String getSom() {
+		return som;
+	}
+	public void setSom(String som) {
+		this.som = som;
+	}
+	public String ObterSom() {
+		return som;
+}
 }

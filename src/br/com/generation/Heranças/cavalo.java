@@ -1,22 +1,24 @@
 package br.com.generation.Heranças;
 
-public class cavalo extends animal {
-	
-	private String som3 = "iiirrrrí";
-	private String correr2 = "O cavalo começou a correr...;";
-	public String getSom3() {
-		return som3;
-	}
-	public void setSom3(String som3) {
-		this.som3 = som3;
-	}
-	public String getCorrer2() {
-		return correr2;
-	}
-	public void setCorrer2(String correr2) {
-		this.correr2 = correr2;
-	}
-	
+public class cavalo extends Mamíferos implements AnimaisDomesticados {
 	
 
+	private String correr = "O cavalo começou a correr...;";
+	
+	
+	
+	public String getCorrer() {
+		return correr;
+	}
+	public void setCorrer(String correr) {
+		this.correr = correr;
+	}
+	@Override
+	public String alimentar(String alimentar) {
+		return alimentar = "Dar ração para o cavalo";
+	}
+	@Override
+	public String levarveterinario(String levarvet) {
+		return levarvet = "Levar o cavalo para o veterinário.";
+	}
 }

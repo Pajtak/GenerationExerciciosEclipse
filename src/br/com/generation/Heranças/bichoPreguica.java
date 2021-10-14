@@ -1,15 +1,10 @@
 package br.com.generation.Heranças;
 
-public class bichoPreguica extends animal {
+public class bichoPreguica extends Mamíferos implements AnimaisSilvestres{
 	
-	private String som = "E..s..t..o..u c..o..m s..o..n..o";
+	
 	private String escalar;
-	public String getSom() {
-		return som;
-	}
-	public void setSom(String som) {
-		this.som = som;
-	}
+	
 	public String getEscalar() {
 		return escalar;
 	}
@@ -17,6 +12,11 @@ public class bichoPreguica extends animal {
 		this.escalar = escalar;
 	}
 	
+	@Override
+	public String morarnafloresta(String morarflor) {
+		return morarflor = "A preguiça está morando na floresta";
+		
+	}
 	
 
 }
