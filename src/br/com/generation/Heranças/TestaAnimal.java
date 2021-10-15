@@ -28,7 +28,7 @@ public class TestaAnimal {
 		System.out.print("O nome da preguiça é " + preguica1.getNome() + ", ela tem " + preguica1.getIdade() + " anos quando ela ");
 		System.out.println(preguica1.getEscalar());
 		System.out.println(preguica1.getNome() +" disse " + preguica1.getSom());
-		System.out.println(preguica1.morarnafloresta(null)+".");
+		System.out.println(preguica1.morarnafloresta(null)+ ".");
 		System.out.print("O nome do cachorro é " + cachorro1.getNome() + ", ela tem " + cachorro1.getIdade() + " anos, quando ela ");
 		System.out.print(cachorro1.getCorrer());
 		System.out.println(cachorro1.getNome() +" fez " + cachorro1.getSom());

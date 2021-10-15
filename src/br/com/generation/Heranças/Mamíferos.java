@@ -2,7 +2,7 @@ package br.com.generation.Heranças;
 
 
 
-public class Mamíferos extends animal{
+public abstract class Mamíferos extends animal{
 	
 	private String amamentar;
 
