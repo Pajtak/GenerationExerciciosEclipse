@@ -47,7 +47,12 @@ public class Produto {
 	public void removeProd (int quant) {
 		this.quant -= quant;
 	}
-	
+	public void addProd (int quant) {
+		this.quant += quant;
+	}
+	public void newPreco (double preco) {
+		this.preco = preco;
+	}
 }
 
 
